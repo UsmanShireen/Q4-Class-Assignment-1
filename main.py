@@ -37,4 +37,4 @@ response = Runner.run_sync(
     input = "میرا نام عثمان شیریں ہے، اور میں جی آئی اے آئی سی میں سر علی جواد کا طالب علم ہوں۔",
     run_config = config
 )
-print(response)
+print(response.final_output)
